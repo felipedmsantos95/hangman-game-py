@@ -6,15 +6,16 @@ Configurações:
 
 *   Uma palavra é sorteada do arquivo baseDados.txt
 *   Para incluir uma palavra ou remover, basta editar baseDados.txt
-*   Em baseDados.txt as palavras devem ser separadas por ; ou espaço
+*   Em baseDados.txt as palavras podem ser separadas por ; ou espaço ou quebrando-se as linhas
 
 Rodando o programa:
 
-*   Para rodar o jogo, basta digitar o comando abaixo:
+*   Para rodar o jogo, basta digitar o comando abaixo em terminal:
 
-    python main.py
+            python main.py ou python3 main.py
 
-* Lista de comandos no jogo:
+*   As instruções para o jogo são descritas enquanto ele é executado
+*   Ao final do jogo os resultados saõ salvos em um arquivo .json
 
-    
+
 
