@@ -1,5 +1,7 @@
 from lerArquivo import *
 from utilitariosJogo import *
+from datetime import datetime
+
 import json
 
 #-------------------------------- Variáveis de controle do jogo ------------------------------
@@ -92,19 +94,22 @@ while((tentativasLetra > 0) and (suporPalavras > 0) and not(ganhouJogo)):
     else:
         print('Por favor, insira uma opção válida!\n')
 
+#Tratamento final ao status do jogo
 if(not ganhouJogo):
     print('Você perdeu o jogo! :(')
     status = 'Perdeu o jogo! :('
 else:
     status = 'Venceu o jogo!'
 
+data = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
 
 resultadoJogo = {
     'Nome Jogador': nomeUsuario,
     'E-mail Jogador': emailUsuario,
     'Palavra Oculta': palavraOculta,
-    'Status': status, 
+    'Status': status,
+    'Data e Hora': data
 }
 
 with open('historico.json', 'a') as arquivoJson:
