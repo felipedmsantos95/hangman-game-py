@@ -1,7 +1,7 @@
 **Jogo da Forca - Python**
 
 <p align="center">
-    <img src = "https://github.com/felipedmsantos95/hangman-game-py/blob/master/assets/hangman.jpg" alt="hangman" style="max-width:30%;"/>
+    <img src = "https://github.com/felipedmsantos95/hangman-game-py/blob/master/assets/hangman.jpg" alt="hangman" style="max-width:30%"/>
 </p>
 
 Um programa que advinha uma palavra. O jogo consiste em ler uma letra por rodada e checar se o usuário acertou ou não a palavra, também é possível realizar palpites. O jogo acaba quando a quantidade de erros é atingida ou quando usuário acerta a palavra.
