@@ -14,7 +14,7 @@ Configurações:
 
 Rodando o programa:
 
-*   Para rodar o jogo, basta digitar o comando abaixo em terminal:
+*   Para rodar o jogo, dentro da pasta do projeto, basta digitar o comando abaixo em terminal:
 
             python3 main.py
 
