@@ -1,11 +1,11 @@
 from lerArquivo import *
 from utilitariosJogo import *
 from datetime import datetime
-
+import os
 import json
 
 #-------------------------------- Variáveis de controle do jogo ------------------------------
-tentativasLetra = 5
+tentativasLetra = 6
 letrasErradas = 0
 suporPalavras = 3
 ganhouJogo = False
@@ -23,6 +23,8 @@ def letraRepetida(letra, listaLetras):
  
  #   
 def printarStatus(dica, tentativasLetra, suporPalavras):
+    os.system('cls' if os.name == 'nt' else 'clear')
+    printarForca(tentativasLetra)
     print('Palavra: ' + dica + '\n')
     print('Tentativas de letra restantes: ' + str(tentativasLetra))
     print('Tentativas de palavra restantes: ' + str(suporPalavras))
@@ -41,7 +43,7 @@ emailUsuario = input('Digite seu email: ')
 print("\nA palavra foi escolhida, dica inicial: \n")
 palavraOculta = sortearPalavra('baseDados.txt')
 dica = dicaPalavra(palavraOculta)
-
+printarForca(tentativasLetra)
 
 
 while((tentativasLetra > 0) and (suporPalavras > 0) and not(ganhouJogo)):
@@ -97,6 +99,7 @@ while((tentativasLetra > 0) and (suporPalavras > 0) and not(ganhouJogo)):
 #Tratamento final ao status do jogo
 if(not ganhouJogo):
     print('Você perdeu o jogo! :(')
+    print('A palavra era: ' + palavraOculta + '\n')
     status = 'Perdeu o jogo! :('
 else:
     status = 'Venceu o jogo!'

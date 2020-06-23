@@ -56,3 +56,61 @@ def palpitePalavra(palpite, palavra):
     else:
         print('Ainda não foi desta vez!')
         return False
+
+def printarForca(tentativas):
+    if(tentativas == 6):
+        print('\n +----+')
+        print(' |    |')
+        print('      |')
+        print('      |')
+        print('      |')
+        print('      |')
+        print('========\n')
+    elif(tentativas == 5):
+        print('\n +----+')
+        print(' |    |')
+        print(' O    |')
+        print('      |')
+        print('      |')
+        print('      |')
+        print('========\n')
+    elif(tentativas == 4):
+        print('\n +----+')
+        print(' |    |')
+        print(' O    |')
+        print(' |    |')
+        print('      |')
+        print('      |')
+        print('========\n')
+    elif(tentativas == 3):
+        print('\n +----+')
+        print(' |    |')
+        print(' O    |')
+        print('/|    |')
+        print('      |')
+        print('      |')
+        print('========\n')
+    elif(tentativas == 2):
+        print('\n +----+')
+        print(' |    |')
+        print(' O    |')
+        print('/|\   |')
+        print('      |')
+        print('      |')
+        print('========\n')
+    elif(tentativas == 1):
+        print('\n +----+')
+        print(' |    |')
+        print(' O    |')
+        print('/|\   |')
+        print('/     |')
+        print('      |')
+        print('========\n')
+    elif(tentativas == 0):
+        print('\n +----+')
+        print(' |    |')
+        print(' O    |')
+        print('/|\   |')
+        print('/ \   |')
+        print('   FIM|')
+        print('========\n')
