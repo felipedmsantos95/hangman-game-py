@@ -16,7 +16,7 @@ Um programa que advinha uma palavra. O jogo consiste em ler uma letra por rodada
 ## Demo do jogo:
 
 <p align="center">
-  <img src="https://github.com/felipedmsantos95/github-explorer/blob/master/assets/hangman.gif"/>
+  <img src="https://github.com/felipedmsantos95/hangman-game-py/blob/master/assets/hangman.gif"/>
 </p>
 
 ## Configurações:

@@ -16,7 +16,7 @@ A program that comes from a word. The game consists of reading one letter per ro
 ## Game Demo:
 
 <p align="center">
-  <img src="https://github.com/felipedmsantos95/github-explorer/blob/master/assets/hangman.gif"/>
+  <img src="https://github.com/felipedmsantos95/hangman-game-py/blob/master/assets/hangman.gif"/>
 </p>
 
 ## Settings:
