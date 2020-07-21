@@ -13,19 +13,19 @@
 
 A program that comes from a word. The game consists of reading one letter per round and checking if the user got the word right or not, it is also possible to make guesses. The game is over when the amount of errors is reached or when the user hits the floor.
 
-## Game Demo:
+## Game Demo
 
 <p align="center">
   <img src="https://github.com/felipedmsantos95/hangman-game-py/blob/master/assets/hangman.gif"/>
 </p>
 
-## Settings:
+## Settings
 
 *   A word is raffle from the file baseDados.txt
 *   To include a word or remove it, so edit baseDados.txt
 *   In baseDados.txt the words can be separated by ; or space or line break
 
-## Running the program:
+## Running the program
 
 *   To run the game, inside the project folder, type the following bash command:
 
